@@ -12,17 +12,22 @@
   font-family: "stdbook-font";
   src: url("./fonts/ITCAvantGardeStdBk.otf");
 }
-img {
-  max-width: 80%;
+#section_fit1 .images {
+  height: auto;
+  width: 80%;
+  margin-left: 100px;
+  margin-top: 2rem;
+}
+.images img {
+  margin-top: 3rem;
+  max-width: 90%;
 }
 section#section_fit1 {
   margin-top: 3rem;
   background-color: #e8f1ef;
   padding-bottom: 3rem;
 }
-header {
-  padding-top: 3rem;
-}
+
 header h1 {
   font-size: 1rem;
   color: #17beba;
@@ -35,18 +40,12 @@ div#file1 input#inputEmail4 {
   height: 79px;
   padding: 2rem 0 0 2rem;
 }
-#section_fit1 .images {
-  height: auto;
-  width: 110%;
-  margin-left: 50px;
-  margin-top: 2rem;
-}
 
 #forms {
   height: auto;
   width: 30%;
   margin: auto;
-  margin-top: auto;
+  margin-top: 2rem;
   margin-right: auto;
   margin-bottom: auto;
   margin-left: auto;
