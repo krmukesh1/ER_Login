@@ -41,7 +41,18 @@ div#file1 input#inputEmail4 {
   margin-left: 50px;
   margin-top: 2rem;
 }
-
+.text h4 {
+  font-size: 1.5rem;
+}
+.text span,
+a {
+  font-weight: 600;
+}
+.form-label {
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
 #forms {
   height: auto;
   width: 30%;
@@ -241,5 +252,12 @@ div#agree {
   .d-flex.flex-row.imgz {
     margin-left: 8rem;
     width: 16%;
+  }
+}
+@media only screen and (min-device-width: 1900px) and (max-device-width: 1940px) {
+  .form-check-inline {
+    display: inline-block;
+    margin-right: 1rem;
+    font-size: 1rem;
   }
 }
