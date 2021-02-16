@@ -32,7 +32,7 @@ section#section_fit1 {
   padding-top: 3rem;
 } */
 header h1 {
-  font-size: 1rem;
+  font-size: 1.5rem;
   color: #17beba;
 }
 header h2 {
@@ -59,6 +59,14 @@ div#file1 input#inputEmail4 {
 }
 .text {
   padding: 0 0 1rem 0;
+}
+.text h4 {
+  font-size: 1.2rem;
+}
+.text span,
+a {
+  font-size: 1rem;
+  font-weight: 600;
 }
 a.btn.btn-primary {
   width: 100%;
@@ -98,7 +106,8 @@ a.btn.btn-primary {
 }
 .form-label {
   margin-bottom: 0.5rem;
-  font-weight: 600;
+  font-size: 1rem;
+  font-weight: 500;
 }
 .form-control:focus {
   color: #212529;
