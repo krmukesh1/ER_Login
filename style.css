@@ -111,7 +111,7 @@ a.btn.btn-primary {
 .form-label {
   font-family: "stdbook-font";
   margin-bottom: 0.5rem;
-  font-size: 1rem;
+  font-size: 0.85rem;
 }
 .form-control:focus {
   color: #212529;
@@ -148,11 +148,16 @@ img.fa.fa-building {
 input#builds {
   margin-top: -29px;
   padding-left: 35px;
+  background: rgba(209, 242, 235, 0.4);
+
+  color: #000;
+  border: 2px solid #d1f2eb !important;
 }
-/* #builds::placeholder {
+
+#builds::placeholder {
   color: #17beba;
   opacity: 1;
-} */
+}
 i#users {
   text-align: center;
   display: flex;
