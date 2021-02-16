@@ -158,6 +158,9 @@ input#builds {
   color: #17beba;
   opacity: 1;
 }
+.form-select {
+  color: #616161 !important;
+}
 i#users {
   text-align: center;
   display: flex;
