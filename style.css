@@ -293,8 +293,8 @@ div#agree {
 }
 @media only screen and (min-device-width: 1900px) and (max-device-width: 1940px) {
   .form-label {
-    margin-bottom: 0.5rem;
     font-weight: 600;
+    font-size: 1.1rem;
   }
   a.btn.btn-primary {
     width: 100%;
@@ -302,5 +302,21 @@ div#agree {
     background-color: #17bebb !important;
     color: #000;
     font-weight: 600;
+  }
+  header h1 {
+    font-size: 2rem;
+    color: #17beba;
+  }
+  header h2 {
+    font-size: 2rem;
+  }
+  .text h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  .text span,
+  a {
+    font-weight: 600;
+    font-size: 1.2rem;
   }
 }
