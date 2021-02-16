@@ -158,6 +158,15 @@ input#builds {
   color: #17beba;
   opacity: 1;
 }
+input#inputEmail4,
+input.form-control,
+input#build,
+input#builds,
+select.form-select,
+option::placeholder {
+  font-size: 14px;
+  font-family: "stdbook-font";
+}
 .form-select {
   color: #616161 !important;
 }
