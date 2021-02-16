@@ -33,12 +33,12 @@ section#section_fit1 {
   padding-top: 3rem;
 } */
 header h1 {
-  font-family: "stdbook-font";
+  font-family: "stdmedium-font";
   font-size: 1.5rem;
   color: #17beba;
 }
 header h2 {
-  font-family: "stdbook-font";
+  font-family: "stdmedium-font";
   font-size: 1.5rem;
 }
 div#file1 input#inputEmail4 {
