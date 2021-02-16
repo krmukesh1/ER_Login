@@ -70,14 +70,13 @@ div#file1 input#inputEmail4 {
 .text span,
 a {
   font-size: 1rem;
-  font-weight: 600;
 }
 a.btn.btn-primary {
   width: 100%;
   border: 1px solid #17bebb !important;
   background-color: #17bebb !important;
   color: #000;
-  font-weight: 600;
+
   font-family: "stdmedium-font";
 }
 /* button.btn.btn-primary {
@@ -113,7 +112,6 @@ a.btn.btn-primary {
   font-family: "stdmedium-font";
   margin-bottom: 0.5rem;
   font-size: 1rem;
-  font-weight: 500;
 }
 .form-control:focus {
   color: #212529;
