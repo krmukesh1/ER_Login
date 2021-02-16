@@ -131,19 +131,18 @@ a.btn.btn-primary {
   font-size: 10px;
 }
 input#build {
-  margin-top: -27px;
-  padding-left: 20px;
+  margin-top: -29px;
+  padding-left: 35px;
+}
+img.fa.fa-building {
+  display: block;
+  margin-top: 10px;
+  padding: 0px 0px 0px 5px;
 }
 
-i.fa.fa-building {
-  text-align: center;
-  display: flex;
-  margin-top: 5px;
-  padding: 7px 0 0 5px;
-}
 input#builds {
-  margin-top: -27px;
-  padding-left: 25px;
+  margin-top: -29px;
+  padding-left: 35px;
 }
 i#users {
   text-align: center;
