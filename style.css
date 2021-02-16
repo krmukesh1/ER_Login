@@ -61,6 +61,7 @@ div#file1 input#inputEmail4 {
   border-radius: 10px;
 }
 .text {
+  font-family: "stdmedium-font";
   padding: 0 0 1rem 0;
 }
 .text h4 {
@@ -77,6 +78,7 @@ a.btn.btn-primary {
   background-color: #17bebb !important;
   color: #000;
   font-weight: 600;
+  font-family: "stdmedium-font";
 }
 /* button.btn.btn-primary {
   width: 100%;
@@ -108,6 +110,7 @@ a.btn.btn-primary {
   box-shadow: none !important;
 }
 .form-label {
+  font-family: "stdmedium-font";
   margin-bottom: 0.5rem;
   font-size: 1rem;
   font-weight: 500;
