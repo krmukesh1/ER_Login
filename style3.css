@@ -28,11 +28,20 @@ section#section_fit1 {
   padding-bottom: 3rem;
 }
 
+section#section_fit1 {
+  margin-top: 3rem;
+  background-color: #e8f1ef;
+  padding-bottom: 3rem;
+  padding-top: 2rem;
+}
+
 header h1 {
-  font-size: 1rem;
+  font-family: "stdmedium-font";
+  font-size: 1.5rem;
   color: #17beba;
 }
 header h2 {
+  font-family: "stdmedium-font";
   font-size: 1.5rem;
 }
 div#file1 input#inputEmail4 {
@@ -41,23 +50,11 @@ div#file1 input#inputEmail4 {
   padding: 2rem 0 0 2rem;
 }
 
-.text h4 {
-  font-size: 1.5rem;
-}
-.text span,
-a {
-  font-weight: 600;
-}
-.form-label {
-  margin-bottom: 0.5rem;
-  font-weight: 600;
-  font-size: 1.2rem;
-}
 #forms {
   height: auto;
   width: 30%;
   margin: auto;
-  margin-top: 2rem;
+  margin-top: 2.5rem;
   margin-right: auto;
   margin-bottom: auto;
   margin-left: auto;
@@ -67,14 +64,23 @@ a {
   border-radius: 10px;
 }
 .text {
+  font-family: "stdbook-font";
   padding: 0 0 1rem 0;
+}
+.text h4 {
+  font-size: 1.2rem;
+}
+.text span,
+a {
+  font-size: 1rem;
 }
 a.btn.btn-primary {
   width: 100%;
   border: 1px solid #17bebb !important;
   background-color: #17bebb !important;
   color: #000;
-  font-weight: 600;
+
+  font-family: "stdbook-font";
 }
 /* button.btn.btn-primary {
   width: 100%;
@@ -130,7 +136,11 @@ a.btn.btn-primary {
 .d-flex.flex-row h4 {
   font-size: 10px;
 }
-
+.form-label {
+  font-family: "stdbook-font";
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+}
 div#agree {
   font-size: 11px;
 }
@@ -256,9 +266,35 @@ div#agree {
   }
 }
 @media only screen and (min-device-width: 1900px) and (max-device-width: 1940px) {
-  .form-check-inline {
-    display: inline-block;
-    margin-right: 1rem;
+  .form-label {
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  a.btn.btn-primary {
+    width: 100%;
+    border: 1px solid #17bebb !important;
+    background-color: #17bebb !important;
+    color: #000;
+    font-weight: 600;
+  }
+  header h1 {
+    font-size: 1.5rem;
+    color: #17beba;
+
+    font-weight: 600;
+  }
+  header h2 {
+    font-size: 2rem;
+
+    font-weight: 600;
+  }
+  .text h4 {
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  .text span,
+  a {
+    font-weight: 600;
     font-size: 1rem;
   }
 }
