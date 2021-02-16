@@ -143,6 +143,7 @@ a.btn.btn-primary {
 }
 div#agree {
   font-size: 11px;
+  font-family: "stdbook-font";
 }
 .d-flex.flex-row a {
   color: none !important;
