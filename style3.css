@@ -72,14 +72,17 @@ div#file1 input#inputEmail4 {
 }
 .text span,
 a {
-  font-size: 1rem;
+  font-size: 0.9rem;
+}
+.text a {
+  font-weight: 600;
 }
 a.btn.btn-primary {
   width: 100%;
   border: 1px solid #17bebb !important;
   background-color: #17bebb !important;
   color: #000;
-
+  font-weight: 600;
   font-family: "stdbook-font";
 }
 /* button.btn.btn-primary {
@@ -139,7 +142,7 @@ a.btn.btn-primary {
 .form-label {
   font-family: "stdbook-font";
   margin-bottom: 0.5rem;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 div#agree {
   font-size: 11px;
@@ -174,6 +177,10 @@ select.form-select,
 option::placeholder {
   font-size: 14px;
   font-family: "stdbook-font";
+}
+.form-check.form-check-inline span {
+  font-weight: 600;
+  cursor: pointer;
 }
 /* mobile Responsive */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (-webkit-min-device-pixel-ratio: 2) {
